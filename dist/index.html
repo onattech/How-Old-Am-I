@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>How Old Am I?</title>
+  </head>
+  <body>
+    <div id="section-1">
+      <h1>How Old Am I?</h1>
+      <h4>Select the date you think you were born on</h4>
+      <input type="date" name="date" id="date" />
+    </div>
+    <div id="section-2" class='hide'>
+      <h3>You think you were born on:</h3>
+      <h2 id="given-bday"></h2>
+      <h3>But you were actually born around:</h3>
+      <h2 id="actual-bday"></h2>
+      <h3>You think your age is:</h3>
+      <h2 id="given-age"></h2>
+      <h3>But your actual age is really about:</h3>
+      <h2 id="actual-age"></h2>
+      <!-- <button>Try Again<i class="fas fa-reply"></i></button> -->
+    </div>
+    <script type="module" src="/dist/main.js"></script>
+  </body>
+</html>
