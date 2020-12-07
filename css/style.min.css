@@ -38,7 +38,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-h2 {
+h3 {
   margin-top: 10px;
   color: #008CC9;
   margin-bottom: 30px;
@@ -50,12 +50,13 @@ h2 {
 
 #section-2 {
   background-color: white;
-  width: 500px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 500px;
   margin: auto;
   margin-top: 30px;
-  padding: 20px;
-  padding-bottom: 20px;
-  padding-top: 50px;
+  padding: 20px 30px 10px 30px;
   border-radius: 6px;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
