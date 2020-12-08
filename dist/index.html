@@ -4,11 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -21,18 +18,27 @@
   </head>
   <body>
     <div id="section-1">
-      <h1>How Old Am I?</h1>
-      <h4>Select the date you think you were born on</h4>
+      <h1 class='en'>How Old Am I?</h1><h1 class='tr hidden'>Kaç Yaşındayım?</h1><i class="fas fa-globe"></i>
+      <select name="lang" id="lang">
+          <option value='en'> En</option>
+          <option value='tr'> Tr</option>
+      </select>
+      <h4 class='en'>Select the date you think you were born on</h4>
+      <h4 class='tr hidden'>Doğduğunu zannettiğiniz günü seçin</h4>
       <input type="date" name="date" id="date" />
     </div>
     <div id="section-2" class='hide'>
-      <h4>You think you were born on:</h4>
+      <h4 class='en'>You think you were born on:</h4>
+      <h4 class='tr hidden'>Doğdunu zannettiğiniz gün:</h4>
       <h3 id="given-bday"></h3>
-      <h4>But you were actually born around:</h4>
+      <h4 class='en'>But you were actually born around:</h4>
+      <h4 class='tr hidden'>Gerçek doğum gününüz:</h4>
       <h3 id="actual-bday"></h3>
-      <h4>You think your age is:</h4>
+      <h4 class='en'>You think your age is:</h4>
+      <h4 class='tr hidden'>Zannetiğiniz yaşınız:</h4>
       <h3 id="given-age"></h3>
-      <h4>But your actual age is really about:</h4>
+      <h4 class='en'>But your actual age is really about:</h4>
+      <h4 class='tr hidden'>Gerçek yaşınız:</h4>
       <h3 id="actual-age"></h3>
       <!-- <button>Try Again<i class="fas fa-reply"></i></button> -->
     </div>

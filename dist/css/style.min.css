@@ -22,7 +22,7 @@ dd {
 
 body {
   text-align: center;
-  font-family: lato;
+  font-family: 'Roboto', sans-serif;
   margin: 30px 0;
   background-color: #f3f3f3;
 }
@@ -60,4 +60,38 @@ h3 {
   border-radius: 6px;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+select {
+  padding: 5px 1px 5px 15px;
+  margin: 9px 0 0 16px;
+  font-weight: 700;
+  color: #333;
+  background-color: eee;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: absolute;
+  direction: rtl;
+}
+
+i {
+  position: absolute;
+  margin: 17px 0px 0 21px;
+  font-size: 0.7rem;
+  z-index: 10;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.visible {
+  display: visible;
+}
+
+.hidden {
+  display: none;
 }
